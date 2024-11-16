@@ -1,0 +1,270 @@
+# personal portfolio
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Navbar */
+header {
+    background-color: #333;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff6b6b;
+}
+
+/* Sections */
+.section {
+    padding: 100px 20px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+#home {
+    background: #ff6b6b;
+    color: #fff;
+}
+
+#about {
+    background: #f9f9f9;
+}
+
+#portfolio {
+    background: #ffffff;
+}
+
+#contact {
+    background: #f9f9f9;
+}
+
+/* Portfolio Items */
+.portfolio-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.portfolio-item {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    .portfolio-items {
+        flex-direction: column;
+    }
+
+    .section {
+        padding: 60px 20px;
+    }
+}
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="section">
+        <h1>Hello, I'm [Your Name]</h1>
+        <p>Web Developer | Designer | Freelancer</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>I'm a web developer with a passion for creating modern, responsive websites. I enjoy coding and design, and I’m always looking for new challenges.</p>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section">
+        <h2>My Work</h2>
+        <div class="portfolio-items">
+            <div class="portfolio-item">
+                <img src="project1.jpg" alt="Project 1">
+                <h3>Project Title 1</h3>
+            </div>
+            <div class="portfolio-item">
+                <img src="project2.jpg" alt="Project 2">
+                <h3>Project Title 2</h3>
+            </div>
+            <!-- Add more portfolio items as needed -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <p>Get in touch via email at <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+    </section>
+
+</body>
+</html>
+
+
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Navbar */
+header {
+    background-color: #333;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff6b6b;
+}
+
+/* Sections */
+.section {
+    padding: 100px 20px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+#home {
+    background: #ff6b6b;
+    color: #fff;
+}
+
+#about {
+    background: #f9f9f9;
+}
+
+#portfolio {
+    background: #ffffff;
+}
+
+#contact {
+    background: #f9f9f9;
+}
+
+/* Portfolio Items */
+.portfolio-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.portfolio-item {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    .portfolio-items {
+        flex-direction: column;
+    }
+
+    .section {
+        padding: 60px 20px;
+    }
+}
+
